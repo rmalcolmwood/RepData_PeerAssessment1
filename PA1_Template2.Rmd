@@ -88,4 +88,4 @@ data <- cbind(data, weekdays(as.Date(data$date)))
   names(data)[5]<-paste("Day")
     library(ggplot2)
       ggplot(data, aes(interval, Imputed_Steps)) + geom_smooth() + facet_wrap(~Day, scales = "free")
-      ```
+      ``` 
